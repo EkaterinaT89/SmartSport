@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sign_up_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="70dp"
+        android:text="@string/sign_up_title"
+        android:textColor="?attr/textFillColor"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/intro_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_start"
+        android:text="@string/intro_text"
+        android:textColor="?attr/textFillColor"
+        android:textSize="14sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/vk_auth_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="@dimen/margin_start"
+        android:backgroundTint="@color/blue"
+        app:cornerRadius="10dp"
+        android:elevation="5dp"
+        android:text="@string/vk_auth_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:icon="@drawable/vk"
+        app:iconTint="@color/white" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_start"
+        android:elevation="3dp"
+        android:background="@drawable/rounded_corners_grey"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="13dp"
+            android:background="@color/white"
+            android:src="@drawable/gos"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gosuslugi_auth_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/white"
+            android:text="@string/gosuslugi_auth_button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/black"
+            app:icon="@drawable/gos" />
+
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/divider_first"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:text="@string/or"
+            app:layout_constraintEnd_toStartOf="@id/divider_second"
+            app:layout_constraintStart_toEndOf="@id/divider_first"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.divider.MaterialDivider
+            android:id="@+id/divider_second"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_start"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/margin_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/email_auth_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_start"
+        android:backgroundTint="@color/grey"
+        android:text="@string/email_auth_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        app:icon="@drawable/ic_baseline_email_24"
+        app:iconTint="@color/black" />
+
+    <TextView
+        android:id="@+id/law_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="30dp"
+        android:autoLink="web"
+        android:text="@string/law_info"
+        android:textColor="?attr/textFillColor" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

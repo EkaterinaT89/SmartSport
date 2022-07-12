@@ -1,0 +1,19 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><layer-list>
+        <item>
+            <shape>
+                <corners android:radius="5dp" />
+
+                <padding
+                    android:bottom="5dp"
+                    android:left="10dp"
+                    android:right="10dp"
+                    android:top="5dp" />
+                <stroke
+                    android:width="2dp"
+                    android:color="@color/orange"/>
+            </shape>
+        </item>
+
+    </layer-list></item>
+</selector>

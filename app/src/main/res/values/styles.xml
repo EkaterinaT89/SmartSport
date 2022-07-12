@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.AppTheme.ChooseButtonStyle" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="backgroundTint">@drawable/button_select</item>
+
+    </style>
+</resources>

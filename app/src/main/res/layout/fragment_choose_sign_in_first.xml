@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".presentation.ui.ChooseSignInFirstFragment">
+
+    <TextView
+        android:id="@+id/smart_sport_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="200dp"
+        android:text="@string/smartsport"
+        android:textColor="?attr/textFillColor"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/making_sport_better"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="250dp"
+        android:gravity="start"
+        android:text="@string/making_sport_better"
+        android:textColor="?attr/textFillColor"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/choose_theme_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="360dp"
+        android:text="@string/choose_theme_title"
+        android:textSize="14sp"
+        android:textColor="?attr/textFillColor"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next_button"
+        app:cornerRadius="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_start"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/orange"
+        android:layout_marginBottom="50dp"
+        android:text="@string/next_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="?attr/textFillColor"
+        app:icon="@drawable/ic_baseline_arrow_right_alt_24"
+        app:iconGravity="end"
+        app:iconTint="?attr/textFillColor" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sign_in_button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginEnd="@dimen/margin_start"
+        android:layout_gravity="bottom"
+        android:text="@string/sign_in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="?attr/textFillColor"
+        app:icon="@drawable/ic_baseline_arrow_right_alt_24"
+        app:iconGravity="end"
+        app:iconTint="@android:color/transparent"/>
+
+</androidx.cardview.widget.CardView>

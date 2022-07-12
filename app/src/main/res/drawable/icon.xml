@@ -1,0 +1,15 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><layer-list>
+        <item>
+
+            <shape android:shape="oval">
+                <solid android:color="@color/white"/>
+            </shape>
+        </item>
+        <item android:drawable="@drawable/ic_baseline_check_circle_24"
+            android:gravity="top|end"/>
+
+    </layer-list>
+
+    </item>
+</selector>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/chooseSignInFirstFragment">
+
+    <fragment
+        android:id="@+id/chooseSignInFirstFragment"
+        android:name="ru.smartsport.presentation.ui.ChooseSignInFirstFragment"
+        android:label=" " />
+    <fragment
+        android:id="@+id/chooseThemeFragment"
+        android:name="ru.smartsport.presentation.ui.ChooseThemeFragment"
+        android:label="Выберите любимый спорт" />
+    <fragment
+        android:id="@+id/setAlarmFragment"
+        android:name="ru.smartsport.presentation.ui.SetAlarmFragment"
+        android:label=" " />
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="ru.smartsport.presentation.ui.SignUpFragment"
+        android:label=" " />
+    <fragment
+        android:id="@+id/emailAuthFragment"
+        android:name="ru.smartsport.presentation.ui.EmailAuthFragment"
+        android:label=" "
+        tools:layout="@layout/fragment_email_auth" />
+</navigation>
