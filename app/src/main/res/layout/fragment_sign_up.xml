@@ -48,6 +48,7 @@
         android:layout_marginEnd="@dimen/margin_start"
         android:elevation="3dp"
         android:background="@drawable/rounded_corners_grey"
+        android:backgroundTint="@color/white"
         android:orientation="horizontal">
 
         <ImageButton

@@ -38,7 +38,7 @@
     <string name="gandball_choose">Выбран гандбол</string>
     <string name="swimming_choose">Выбрано плавание</string>
     <string name="alarm_title">Настройте\nуведомления под\nсвои интересы</string>
-    <string name="registration_status">Статус регистрации</string>
+    <string name="registration_status">Статусы регистрации</string>
     <string name="alarm_for_groups">Уведомления для команд</string>
     <string name="alarm_start_activities">Статусы начала мероприятий</string>
     <string name="sign_up_title">Создайте аккаунт\nна SmartSport</string>
@@ -51,5 +51,13 @@
     <string name="vk_auth_error">Ошибка авторизации Вконтакте</string>
     <string name="password_input">Введите пароль</string>
     <string name="email_input">Введите e-mail</string>
+    <string name="login_input">Введите логин</string>
+    <string name="esia_input">Телефон / Еmail / СНИЛС</string>
+    <string name="sign_button">Войти с электронной подписью</string>
+    <string name="not_sign_button">Не удаётся войти?</string>
+    <string name="pass_esia">Пароль</string>
     <integer name="com_vk_sdk_AppId">8215576</integer>
+    <string name="channel_remote_name">Server notifications</string>
+    <string name="channel_remote_description">Notifications from remote server</string>
+    <string name="google_play_unavailable" translatable="false">Google Api Unavailable</string>
 </resources>

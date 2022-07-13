@@ -22,8 +22,13 @@
         android:name="ru.smartsport.presentation.ui.SignUpFragment"
         android:label=" " />
     <fragment
+        android:id="@+id/esiaAuthFragment"
+        android:name="ru.smartsport.presentation.ui.EsiaAuthFragment"
+        android:label="Войти через госуслуги"
+        tools:layout="@layout/fragment_esia_auth" />
+    <fragment
         android:id="@+id/emailAuthFragment"
         android:name="ru.smartsport.presentation.ui.EmailAuthFragment"
-        android:label=" "
+        android:label="Войти через e-mail"
         tools:layout="@layout/fragment_email_auth" />
 </navigation>

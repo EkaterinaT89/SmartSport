@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "373341631433",
+    "project_id": "smartsport-20bc5",
+    "storage_bucket": "smartsport-20bc5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373341631433:android:fbe10b613c16e5e853ee18",
+        "android_client_info": {
+          "package_name": "ru.smartsport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373341631433-4hqm5jjnem6epanbmu8vm951n3qe95sc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLB4V9AiRPwsGJe7Dhouy7idc0CpdMblA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373341631433-4hqm5jjnem6epanbmu8vm951n3qe95sc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

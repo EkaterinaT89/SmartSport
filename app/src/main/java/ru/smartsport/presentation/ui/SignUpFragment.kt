@@ -51,6 +51,9 @@ class SignUpFragment: Fragment() {
             emailAuthButton.setOnClickListener {
                 findNavController().navigate(R.id.emailAuthFragment)
             }
+            gosuslugiAuthButton.setOnClickListener {
+                findNavController().navigate(R.id.esiaAuthFragment)
+            }
         }
 
         return binding.root
