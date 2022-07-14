@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="43dp"
+        android:text="Бонусная программа"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView16"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Ежегодный участник"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="7dp"
+                app:layout_constraintEnd_toEndOf="@+id/cardView16"
+                app:layout_constraintStart_toStartOf="@+id/cardView16"
+                app:layout_constraintTop_toBottomOf="@+id/cardView16" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/button_you_love_sports"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Лучший футболист"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="7dp"
+                app:layout_constraintEnd_toEndOf="@+id/button_you_love_sports"
+                app:layout_constraintStart_toStartOf="@+id/button_you_love_sports"
+                app:layout_constraintTop_toBottomOf="@id/button_you_love_sports" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView14"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Победитель I Место"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="7dp"
+                app:layout_constraintEnd_toEndOf="@+id/cardView14"
+                app:layout_constraintStart_toStartOf="@+id/cardView14"
+                app:layout_constraintTop_toBottomOf="@+id/cardView14" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView15"
+                android:layout_width="62dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/image" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="Стальной характер"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="7dp"
+                app:layout_constraintEnd_toEndOf="@+id/cardView15"
+                app:layout_constraintStart_toStartOf="@+id/cardView15"
+                app:layout_constraintTop_toBottomOf="@+id/cardView15" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_open_list"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        app:cornerRadius="15dp"
+        android:backgroundTint="#EFEFEF"
+        android:gravity="fill"
+        android:text="Мои успехи"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:icon="@drawable/image1"
+        app:iconPadding="30dp"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        app:layout_constraintBottom_toBottomOf="@+id/button_open_list"
+        app:layout_constraintEnd_toEndOf="@+id/button_open_list"
+        app:layout_constraintTop_toTopOf="@+id/button_open_list" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_souvenirs_shop"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginHorizontal="35dp"
+        app:cornerRadius="15dp"
+        android:backgroundTint="#EFEFEF"
+        android:gravity="fill"
+        android:text="Магазин сувениров"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:icon="@drawable/image2"
+        app:iconPadding="30dp"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_open_list"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        app:layout_constraintBottom_toBottomOf="@+id/button_souvenirs_shop"
+        app:layout_constraintEnd_toEndOf="@+id/button_souvenirs_shop"
+        app:layout_constraintTop_toTopOf="@+id/button_souvenirs_shop" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_about_the_app"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginHorizontal="35dp"
+        app:cornerRadius="15dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#EFEFEF"
+        android:gravity="fill"
+        android:text="партнёры и акции"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:icon="@drawable/image4"
+        app:iconPadding="30dp"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_souvenirs_shop"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        app:layout_constraintBottom_toBottomOf="@+id/button_about_the_app"
+        app:layout_constraintEnd_toEndOf="@+id/button_about_the_app"
+        app:layout_constraintTop_toTopOf="@+id/button_about_the_app" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_open_game"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginHorizontal="35dp"
+        app:cornerRadius="15dp"
+        android:backgroundTint="#EFEFEF"
+        android:gravity="fill"
+        android:text="Игры и розыгрыши"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:icon="@drawable/image5"
+        app:iconPadding="30dp"
+        app:iconSize="30dp"
+        app:iconTint="@color/black"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_about_the_app"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        app:layout_constraintBottom_toBottomOf="@+id/button_open_game"
+        app:layout_constraintEnd_toEndOf="@+id/button_open_game"
+        app:layout_constraintTop_toTopOf="@+id/button_open_game" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

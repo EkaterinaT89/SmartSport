@@ -26,4 +26,40 @@
         android:name="ru.smartsport.presentation.ui.EmailAuthFragment"
         android:label=" "
         tools:layout="@layout/fragment_email_auth" />
+    <fragment
+        android:id="@+id/accountScreen"
+        android:name="ru.smartsport.presentation.ui.AccountScreen"
+        android:label="AccountScreen" />
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="ru.smartsport.presentation.ui.MainScreen"
+        android:label="MainScreen" />
+    <fragment
+        android:id="@+id/programmeScreen"
+        android:name="ru.smartsport.presentation.ui.ProgrammeScreen"
+        android:label="ProgrammeScreen" />
+    <fragment
+        android:id="@+id/bonusProgramScreen"
+        android:name="ru.smartsport.presentation.ui.BonusProgramScreen"
+        android:label="BonusProgramScreen" />
+    <fragment
+        android:id="@+id/partnersStockScreen"
+        android:name="ru.smartsport.presentation.ui.PartnersStockScreen"
+        android:label="PartnersStockScreen" />
+    <fragment
+        android:id="@+id/gameJokesScreen"
+        android:name="ru.smartsport.presentation.ui.GameJokesScreen"
+        android:label="GameJokesScreen" />
+    <fragment
+        android:id="@+id/souvenirShopScreen"
+        android:name="ru.smartsport.presentation.ui.SouvenirShopScreen"
+        android:label="SouvenirShopScreen" />
+    <fragment
+        android:id="@+id/myProgressScreen"
+        android:name="ru.smartsport.presentation.ui.MyProgressScreen"
+        android:label="MyProgressScreen" />
+    <fragment
+        android:id="@+id/myLevelsProgressScreen"
+        android:name="ru.smartsport.presentation.ui.MyLevelsProgressScreen"
+        android:label="MyLevelsProgressScreen" />
 </navigation>
