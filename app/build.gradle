@@ -31,6 +31,7 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+
     }
 
     kotlinOptions {
@@ -72,6 +73,7 @@ dependencies {
 
     implementation "com.vk:android-sdk-core:$vk_auth"
     implementation "com.vk:android-sdk-api:$vk_auth"
+    implementation"tk.zielony:carbon:0.16.0.1"
 
     implementation "androidx.browser:browser:$browser_version"
     implementation "me.saket:better-link-movement-method:$link_movement_version"

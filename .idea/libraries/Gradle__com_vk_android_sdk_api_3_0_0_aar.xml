@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vk:android-sdk-api:3.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6fe7406c0a0701eb9cb7f2e93a35e94a/transformed/android-sdk-api-3.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6fe7406c0a0701eb9cb7f2e93a35e94a/transformed/android-sdk-api-3.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6fe7406c0a0701eb9cb7f2e93a35e94a/transformed/android-sdk-api-3.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vk/android-sdk-api/3.0.0/3fccf0cf3dc390fb2c7da3e92bed13468791ae11/android-sdk-api-3.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vk/android-sdk-api/3.0.0/b048a8e25fa649a99b4a92431ac08c874e3126d/android-sdk-api-3.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
