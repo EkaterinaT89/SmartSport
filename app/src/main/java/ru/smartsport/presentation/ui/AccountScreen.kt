@@ -32,9 +32,6 @@ class AccountScreen: Fragment() {
             buttonOpenRegistration.setOnClickListener {
                 findNavController().navigate(R.id.registrationScreen)
             }
-            buttonSettingUpNotifications.setOnClickListener {
-                TODO()
-            }
             buttonYouLoveSports.setOnClickListener {
                 findNavController().navigate(R.id.favoriteSportChooseFragment)
             }

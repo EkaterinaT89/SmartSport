@@ -67,9 +67,10 @@
             app:layout_constraintTop_toBottomOf="@+id/textView4">
 
             <TextView
+                android:id="@+id/football_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/background_text"
+                android:background="@color/grey"
                 android:gravity="center"
                 android:paddingHorizontal="8dp"
                 android:text="Футбол"
@@ -78,11 +79,13 @@
                 android:textSize="19dp"
                 android:textStyle="italic" />
 
+
             <TextView
+                android:id="@+id/basketball_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
-                android:background="@drawable/background_text"
+                android:background="@color/grey"
                 android:gravity="center"
                 android:paddingHorizontal="8dp"
                 android:text="Баскетбол"
@@ -91,11 +94,11 @@
                 android:textSize="19dp"
                 android:textStyle="italic" />
 
-
             <TextView
+                android:id="@+id/tennis_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/background_text"
+                android:background="@color/grey"
                 android:gravity="center"
                 android:paddingHorizontal="8dp"
                 android:text="Теннис"
