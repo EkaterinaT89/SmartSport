@@ -7,29 +7,16 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Партнеры и акции"
-        android:textColor="@color/black"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="20dp"
         android:text="Игры"
         android:textColor="@color/black"
         android:textSize="16dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/recyclerView2"
@@ -62,12 +49,13 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:tint="#3C000000"
                     tools:ignore="UseAppTint"/>
 
                 <TextView
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
+                    android:background="#80000000"
+                    android:paddingStart="5dp"
                     android:text="Настреляй баллы"
                     android:textColor="@color/white"
                     android:textSize="12dp"
@@ -91,13 +79,14 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:tint="#3C000000"
                     tools:ignore="UseAppTint" />
 
                 <TextView
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
                     android:text="Викторина"
+                    android:background="#80000000"
+                    android:paddingStart="5dp"
                     android:textColor="@color/white"
                     android:textSize="12dp"
                     android:layout_marginStart="20dp"
@@ -130,13 +119,14 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:tint="#3C000000"
                     tools:ignore="UseAppTint"/>
 
                 <TextView
-                    android:layout_width="120dp"
+                    android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:text="Триатлон"
+                    android:background="#80000000"
+                    android:paddingStart="5dp"
                     android:textColor="@color/white"
                     android:textSize="12dp"
                     android:layout_marginStart="20dp"
@@ -159,14 +149,15 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    android:tint="#3C000000"
                     tools:ignore="UseAppTint"/>
 
                 <TextView
-                    android:layout_width="150dp"
+                    android:layout_width="110dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginBottom="16dp"
+                    android:background="#80000000"
+                    android:paddingStart="5dp"
                     android:text="Собери команду"
                     android:textColor="@color/white"
                     android:textSize="12dp"
@@ -241,6 +232,8 @@
                     android:layout_width="70dp"
                     android:layout_height="wrap_content"
                     android:text="Выиграй iPhone 13"
+                    android:background="#80000000"
+                    android:paddingStart="5dp"
                     android:textColor="#FFFFFF"
                     android:textSize="12dp"
                     android:layout_marginStart="20dp"
@@ -250,10 +243,12 @@
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <TextView
-                    android:layout_width="70dp"
+                    android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="Подробнее"
-                    android:textColor="#CCCCCC"
+                    android:text="Подробнее..."
+                    android:background="#FFFFFF"
+                    android:paddingStart="5dp"
+                    android:textColor="#000000"
                     android:textSize="12dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginBottom="15dp"
@@ -278,9 +273,11 @@
                     tools:ignore="UseAppTint"/>
 
                 <TextView
-                    android:layout_width="150dp"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:text="Выиграй баллы"
+                    android:background="#80000000"
+                    android:paddingStart="5dp"
                     android:textColor="@color/white"
                     android:textSize="12dp"
                     android:layout_marginStart="20dp"
@@ -290,10 +287,12 @@
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <TextView
-                    android:layout_width="150dp"
+                    android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:text="Подробнее"
-                    android:textColor="#CCCCCC"
+                    android:text="Подробнее..."
+                    android:background="#FFFFFF"
+                    android:paddingStart="5dp"
+                    android:textColor="#000000"
                     android:textSize="12dp"
                     android:layout_marginStart="20dp"
                     android:layout_marginBottom="15dp"

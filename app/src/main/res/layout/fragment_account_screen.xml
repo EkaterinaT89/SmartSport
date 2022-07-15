@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -7,173 +9,236 @@
     android:layout_height="match_parent"
     android:background="#F8F8F8">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="60dp"
-        android:text="Профиль"
-        android:textColor="@color/black"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView5"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="25dp"
-        app:cardCornerRadius="30dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView4"
-        app:layout_constraintStart_toStartOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView5"
+            android:layout_width="79dp"
+            android:layout_height="100dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/person" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="Иванов Иван"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/cardView5"
+            app:layout_constraintTop_toTopOf="@+id/cardView5" />
+
+        <TextView
+            android:id="@+id/text_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="5dp"
+            android:text="II возрастная группа"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            app:layout_constraintStart_toEndOf="@+id/cardView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/text_info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:text="Команда: 3"
+            android:textColor="@color/black"
+            android:textSize="9dp"
+            app:layout_constraintStart_toEndOf="@+id/cardView5"
+            app:layout_constraintTop_toBottomOf="@+id/text_info" />
+
+        <TextView
+            android:id="@+id/text_info2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="Восход
+Бумс"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/cardView5"
+            app:layout_constraintTop_toBottomOf="@+id/text_info1" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_open_registration"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/ic_baseline_check_circle_24"/>
-
-    </androidx.cardview.widget.CardView>
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:text="ФИО"
-        android:textColor="@color/black"
-        android:textSize="9dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/cardView5"
-        app:layout_constraintStart_toEndOf="@+id/cardView5"
-        app:layout_constraintTop_toTopOf="@+id/cardView5" />
-
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/button_team"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:backgroundTint="@color/white"
-        android:layout_marginHorizontal="35dp"
-        android:layout_marginTop="50dp"
-        android:text="Команда"
-        android:gravity="fill"
-        app:iconPadding="30dp"
-        android:textColor="@color/black"
-        android:textSize="9sp"
-        app:icon="@drawable/ic_baseline_people_alt_24"
-        app:iconTint="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView5" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/button_you_love_sports"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:backgroundTint="@color/white"
-        android:layout_marginHorizontal="35dp"
-        android:text="Любимый спорт"
-        android:gravity="fill"
-        app:iconPadding="30dp"
-        android:textColor="@color/black"
-        android:textSize="9sp"
-        app:icon="@drawable/ic_baseline_favorite_24"
-        app:iconTint="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_team" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/button_setting_up_notifications"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:backgroundTint="@color/white"
-        android:layout_marginHorizontal="35dp"
-        android:text="Настройка уведомлений"
-        android:gravity="fill"
-        app:iconPadding="30dp"
-        android:textColor="@color/black"
-        android:textSize="9sp"
-        app:icon="@drawable/ic_baseline_notifications_24"
-        app:iconTint="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_you_love_sports" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/button_help_and_support"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:backgroundTint="@color/white"
-        android:layout_marginHorizontal="35dp"
-        android:text="Помошь и потдержка"
-        android:gravity="fill"
-        app:iconPadding="30dp"
-        android:textColor="@color/black"
-        android:textSize="9sp"
-        app:icon="@drawable/ic_baseline_mark_chat_read_24"
-        app:iconTint="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_setting_up_notifications" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/button_about_the_app"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:backgroundTint="@color/white"
-        android:layout_marginHorizontal="35dp"
-        android:text="О приложении"
-        android:gravity="fill"
-        app:iconPadding="30dp"
-        android:textColor="@color/black"
-        android:textSize="9sp"
-        app:icon="@drawable/ic_baseline_priority_high_24"
-        app:iconTint="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_help_and_support" />
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="35dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/white"
+            android:gravity="fill"
+            android:text="Регистрация"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/my_team1"
+            app:iconPadding="30dp"
+            app:iconSize="13dp"
+            app:iconTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5" />
 
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_team"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="35dp"
+            android:backgroundTint="@color/white"
+            android:gravity="fill"
+            android:text="Команда"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/my_team3"
+            app:iconPadding="30dp"
+            app:iconSize="13dp"
+            app:iconTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_open_registration" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_you_love_sports"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="35dp"
+            android:backgroundTint="@color/white"
+            android:gravity="fill"
+            android:text="Любимый спорт"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/my_acount3"
+            app:iconPadding="30dp"
+            app:iconTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_team" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_setting_up_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="35dp"
+            android:backgroundTint="@color/white"
+            android:gravity="fill"
+            android:text="Настройка уведомлений"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/my_acount1"
+            app:iconPadding="30dp"
+            app:iconTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_you_love_sports" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_help_and_support"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="35dp"
+            android:backgroundTint="@color/white"
+            android:gravity="fill"
+            android:text="Помошь и потдержка"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/my_acount"
+            app:iconPadding="30dp"
+            app:iconTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_setting_up_notifications" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_about_the_app"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="35dp"
+            android:backgroundTint="@color/white"
+            android:gravity="fill"
+            android:text="О приложении"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            app:cornerRadius="8dp"
+            app:icon="@drawable/my_acount2"
+            app:iconPadding="30dp"
+            app:iconTint="@color/blue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_help_and_support" />
 
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/materialDivider2"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="15dp"
-        android:background="@null"
-        android:orientation="vertical"
-        android:text="Выйти"
-        android:backgroundTint="#FFFFFF"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_about_the_app" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sign_in_button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Выйти"
+            android:layout_marginTop="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="?attr/textFillColor"
+            app:icon="@drawable/ic_baseline_arrow_right_alt_24"
+            app:iconGravity="end"
+            app:iconTint="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button_about_the_app" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
     <LinearLayout
         android:id="@+id/linearLayout4"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="65dp"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottom_navigation"
+            style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#ABB8C6"
-            app:itemIconSize="45dp"
-            app:itemIconTint="@color/white"
-            app:itemTextColor="@color/white"
+            android:background="@color/white"
+            app:itemIconSize="30dp"
+            app:itemIconTint="@color/background_bottom_nav"
+            app:itemTextColor="@color/background_bottom_nav"
             app:labelVisibilityMode="labeled"
             app:menu="@menu/menu_bottom_nav" />
 

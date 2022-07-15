@@ -22,11 +22,6 @@ class FavoriteSportChooseFragment: Fragment() {
             container,
             false
         )
-
-        with(binding) {
-
-        }
-
         return binding.root
     }
 

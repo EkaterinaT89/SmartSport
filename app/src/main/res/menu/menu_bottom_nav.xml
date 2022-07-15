@@ -3,24 +3,24 @@
     <item
         android:id="@+id/page_1"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_home_24"
+        android:icon="@drawable/bottom_nav_image"
         android:title="Главная"/>
     <item
         android:id="@+id/page_2"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_history_toggle_off_24"
+        android:icon="@drawable/bottom_nav_image3"
         android:title="Программа"/>
 
     <item
         android:id="@+id/page_3"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_mood_24"
+        android:icon="@drawable/bottom_nav_image2"
         android:title="Бонусы"/>
 
     <item
         android:id="@+id/page_4"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_person_24"
+        android:icon="@drawable/bottom_nav_image1"
         android:title="Профиль"/>
 
 

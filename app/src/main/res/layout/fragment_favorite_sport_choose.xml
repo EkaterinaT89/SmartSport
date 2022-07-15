@@ -24,6 +24,7 @@
 
         <CheckBox
             android:id="@+id/football_checked"
+            android:checked="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:theme="@style/MyCheckBox"/>
@@ -124,6 +125,7 @@
 
         <CheckBox
             android:id="@+id/tennis_checked"
+            android:checked="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:theme="@style/MyCheckBox"/>
@@ -217,7 +219,7 @@
             android:id="@+id/light_text"
             android:layout_width="220dp"
             android:layout_height="wrap_content"
-            android:text="@string/light_text_choose"
+            android:text="Лёгкая атлетика"
             android:textAlignment="textStart"
             android:textColor="?attr/textFillColor"
             android:textSize="14sp" />
@@ -299,6 +301,7 @@
 
         <CheckBox
             android:id="@+id/swimming_checked"
+            android:checked="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:theme="@style/MyCheckBox"/>

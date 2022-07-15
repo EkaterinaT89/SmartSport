@@ -26,6 +26,8 @@
             <TextView
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
+                android:background="#74000000"
+                android:paddingStart="5dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="Открыта регистрация на забег"
@@ -58,6 +60,8 @@
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                android:background="#74000000"
+                android:paddingStart="5dp"
                 android:layout_marginBottom="5dp"
                 android:text="Победители встретились с главой Минспорта РФ"
                 android:textColor="@color/white"
@@ -86,8 +90,10 @@
                 android:src="@drawable/history_image3" />
 
             <TextView
-                android:layout_width="80dp"
+                android:layout_width="85dp"
                 android:layout_height="wrap_content"
+                android:background="#74000000"
+                android:paddingStart="5dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="Как спорт помогает стать увереннее в себе"
@@ -114,14 +120,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
-                android:src="@drawable/history_image" />
+                android:src="@drawable/image_history" />
 
             <TextView
                 android:layout_width="80dp"
                 android:layout_height="wrap_content"
+                android:background="#74000000"
+                android:paddingStart="5dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="5dp"
-                android:text="Открыта регистрация на забег"
+                android:text="Петров Иван поставил рекорд в дистанции 20 км"
                 android:textColor="@color/white"
                 android:textSize="9dp"
                 android:textStyle="bold"

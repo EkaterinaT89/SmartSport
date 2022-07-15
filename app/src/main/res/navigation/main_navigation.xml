@@ -34,37 +34,60 @@
     <fragment
         android:id="@+id/accountScreen"
         android:name="ru.smartsport.presentation.ui.AccountScreen"
-        android:label="AccountScreen" />
+        android:label="Профиль" />
     <fragment
         android:id="@+id/mainScreen"
         android:name="ru.smartsport.presentation.ui.MainScreen"
-        android:label="MainScreen" />
+        android:label="Главная" />
     <fragment
         android:id="@+id/programmeScreen"
         android:name="ru.smartsport.presentation.ui.ProgrammeScreen"
-        android:label="ProgrammeScreen" />
+        android:label="Программы" />
     <fragment
         android:id="@+id/bonusProgramScreen"
         android:name="ru.smartsport.presentation.ui.BonusProgramScreen"
-        android:label="BonusProgramScreen" />
+        android:label="Бонусы" />
     <fragment
         android:id="@+id/partnersStockScreen"
         android:name="ru.smartsport.presentation.ui.PartnersStockScreen"
-        android:label="PartnersStockScreen" />
+        android:label="Партнеры и акции" />
     <fragment
         android:id="@+id/gameJokesScreen"
         android:name="ru.smartsport.presentation.ui.GameJokesScreen"
-        android:label="GameJokesScreen" />
+        android:label="Игры и розыгрыши" />
     <fragment
         android:id="@+id/souvenirShopScreen"
         android:name="ru.smartsport.presentation.ui.SouvenirShopScreen"
-        android:label="SouvenirShopScreen" />
+        android:label="Магазин сувениров" />
     <fragment
         android:id="@+id/myProgressScreen"
         android:name="ru.smartsport.presentation.ui.MyProgressScreen"
-        android:label="MyProgressScreen" />
+        android:label="Мои успехи" />
     <fragment
         android:id="@+id/myLevelsProgressScreen"
         android:name="ru.smartsport.presentation.ui.MyLevelsProgressScreen"
-        android:label="MyLevelsProgressScreen" />
+        android:label="Уровни прогресса" />
+    <fragment
+        android:id="@+id/aboutApp"
+        android:name="ru.smartsport.presentation.ui.AboutApp"
+        android:label="О приложении" />
+    <fragment
+        android:id="@+id/myTeamScreen"
+        android:name="ru.smartsport.presentation.ui.MyTeamScreen"
+        android:label="Команда" />
+    <fragment
+        android:id="@+id/supportScreen"
+        android:name="ru.smartsport.presentation.ui.SupportScreen"
+        android:label="Помощь и поддержка" />
+    <fragment
+        android:id="@+id/favoriteSportChooseFragment"
+        android:name="ru.smartsport.presentation.ui.FavoriteSportChooseFragment"
+        android:label="Любимый спорт" />
+    <fragment
+        android:id="@+id/registrationScreen"
+        android:name="ru.smartsport.presentation.ui.RegistrationScreen"
+        android:label="Регистрация" />
+    <fragment
+        android:id="@+id/confirmationRegistrationScreen"
+        android:name="ru.smartsport.presentation.ui.ConfirmationRegistrationScreen" />
 </navigation>

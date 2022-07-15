@@ -17,18 +17,50 @@ class BonusProgramScreen: Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val binding = FragmentBonusProgramBinding.inflate(layoutInflater)
-        binding.buttonAboutTheApp.setOnClickListener{
-            findNavController().navigate(R.id.partnersStockScreen)
+
+        binding.apply {
+
+            buttonAboutTheApp.setOnClickListener{
+                findNavController().navigate(R.id.partnersStockScreen)
+            }
+            buttonOpenGame.setOnClickListener{
+                findNavController().navigate(R.id.gameJokesScreen)
+            }
+            buttonSouvenirsShop.setOnClickListener{
+                findNavController().navigate(R.id.souvenirShopScreen)
+            }
+            buttonOpenList.setOnClickListener {
+                findNavController().navigate(R.id.myProgressScreen)
+            }
+
+
+            val item = bottomNavigation.menu.findItem(R.id.page_3)
+            item.setChecked(true)
+            bottomNavigation.setOnItemSelectedListener {item ->
+                when(item.itemId){
+                    R.id.page_2 ->{
+                        findNavController().popBackStack()
+                        findNavController().navigate(R.id.programmeScreen)
+                        true
+                    }
+                    R.id.page_4 -> {
+                        findNavController().popBackStack()
+                        findNavController().navigate(R.id.accountScreen)
+                        true
+                    }
+                    R.id.page_1 ->{
+                        findNavController().popBackStack()
+                        findNavController().navigate(R.id.mainScreen)
+                        true
+                    }
+
+                    else -> false
+                }
+
+
+            }
         }
-        binding.buttonOpenGame.setOnClickListener{
-            findNavController().navigate(R.id.gameJokesScreen)
-        }
-        binding.buttonSouvenirsShop.setOnClickListener{
-            findNavController().navigate(R.id.souvenirShopScreen)
-        }
-        binding.buttonOpenList.setOnClickListener {
-            findNavController().navigate(R.id.myProgressScreen)
-        }
+
         return binding.root
     }
 }

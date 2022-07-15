@@ -6,19 +6,6 @@
     android:layout_height="match_parent"
     android:background="#FBFBFB">
 
-    <TextView
-        android:id="@+id/text_programme"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="30dp"
-        android:text="Программа"
-        android:textColor="@color/black"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
 
     <ImageView
         android:id="@+id/imageView"
@@ -35,10 +22,22 @@
         android:layout_width="1dp"
         android:layout_height="44dp"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="45dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text_programme" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:elevation="99dp"
+        android:backgroundTint="#21F409"
+        android:text="LIVE"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/materialDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -238,10 +237,8 @@
         android:text="Мероприятии дня"
         android:textAllCaps="true"
         android:checkable="false"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/black"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:textSize="14sp"
         android:typeface="normal"
         app:cornerRadius="13dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -393,10 +390,8 @@
         android:elevation="15dp"
         android:text="Виды спорта"
         android:textAllCaps="true"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="@color/black"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        android:textSize="14sp"
         android:typeface="normal"
         app:cornerRadius="13dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -415,10 +410,8 @@
         app:cornerRadius="13dp"
         android:gravity="fill"
         android:text="Футбол"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black"
-        android:textSize="16dp"
-        android:textStyle="bold"
+        android:textSize="11sp"
         app:backgroundTint="@color/white"
         app:icon="@drawable/football"
         app:iconPadding="30dp"
@@ -485,10 +478,8 @@
         app:cornerRadius="13dp"
         android:gravity="fill"
         android:text="Плавание"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black"
-        android:textSize="16dp"
-        android:textStyle="bold"
+        android:textSize="11sp"
         app:backgroundTint="@color/white"
         app:icon="@drawable/swim"
         app:iconPadding="30dp"
@@ -506,10 +497,8 @@
         android:elevation="15dp"
         android:gravity="fill"
         android:text="Тенис"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black"
-        android:textSize="16dp"
-        android:textStyle="bold"
+        android:textSize="11sp"
         app:backgroundTint="@color/white"
         app:cornerRadius="13dp"
         app:icon="@drawable/tenis"
@@ -519,5 +508,28 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_souvenirs_shop" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:itemIconTint="@color/background_bottom_nav"
+            app:itemTextColor="@color/background_bottom_nav"
+            style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+            app:itemIconSize="30dp"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/menu_bottom_nav" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

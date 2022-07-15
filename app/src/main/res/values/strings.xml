@@ -60,4 +60,17 @@
     <string name="channel_remote_name">Server notifications</string>
     <string name="channel_remote_description">Notifications from remote server</string>
     <string name="google_play_unavailable" translatable="false">Google Api Unavailable</string>
+    <string name="reg_statuses">Статусы регистрации</string>
+    <string name="reg_info">Вы зарегистрированы на мероприятие</string>
+    <string name="your_team_reg_text">Ваша команда зарегистрирована\nна мероприятие</string>
+    <string name="team_notifications">Уведомления команд</string>
+    <string name="your_team_created_text">Ваша команда создана</string>
+    <string name="you_invite_text">Вас приглашают в команду</string>
+    <string name="into_text">Заявка на вступление в вашу команду</string>
+    <string name="out_of_team_text">Вы исключены из команды</string>
+    <string name="one_person_out_of_team_text">Вашу команду покинул участник</string>
+    <string name="start_events_status">Статусы начала мероприятия</string>
+    <string name="start_soon_text">Скоро начало мероприятия</string>
+    <string name="change_event_text">Мероприятие перенесено\nорагнизатором</string>
+    <string name="event_canceled_text">Мероприятие отменено</string>
 </resources>

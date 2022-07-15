@@ -3,32 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FBFBFB">
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="43dp"
-        android:text="Бонусная программа"
-        android:textColor="@color/black"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="15dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginTop="35dp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15">
+        app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="0dp"
@@ -60,8 +49,9 @@
                 android:layout_height="wrap_content"
                 android:text="Ежегодный участник"
                 android:textAlignment="center"
+                android:layout_marginTop="2dp"
                 android:textColor="@color/black"
-                android:textSize="7dp"
+                android:textSize="10dp"
                 app:layout_constraintEnd_toEndOf="@+id/cardView16"
                 app:layout_constraintStart_toStartOf="@+id/cardView16"
                 app:layout_constraintTop_toBottomOf="@+id/cardView16" />
@@ -89,7 +79,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:src="@drawable/image" />
+                    android:src="@drawable/icon_bonus1" />
 
 
             </androidx.cardview.widget.CardView>
@@ -99,8 +89,9 @@
                 android:layout_height="wrap_content"
                 android:text="Лучший футболист"
                 android:textAlignment="center"
+                android:layout_marginTop="2dp"
                 android:textColor="@color/black"
-                android:textSize="7dp"
+                android:textSize="10dp"
                 app:layout_constraintEnd_toEndOf="@+id/button_you_love_sports"
                 app:layout_constraintStart_toStartOf="@+id/button_you_love_sports"
                 app:layout_constraintTop_toBottomOf="@id/button_you_love_sports" />
@@ -129,7 +120,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:src="@drawable/image" />
+                    android:src="@drawable/icon_bonus2" />
 
             </androidx.cardview.widget.CardView>
 
@@ -138,8 +129,9 @@
                 android:layout_height="wrap_content"
                 android:text="Победитель I Место"
                 android:textAlignment="center"
+                android:layout_marginTop="2dp"
                 android:textColor="@color/black"
-                android:textSize="7dp"
+                android:textSize="10dp"
                 app:layout_constraintEnd_toEndOf="@+id/cardView14"
                 app:layout_constraintStart_toStartOf="@+id/cardView14"
                 app:layout_constraintTop_toBottomOf="@+id/cardView14" />
@@ -168,7 +160,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:src="@drawable/image" />
+                    android:src="@drawable/icon_bonus3" />
 
             </androidx.cardview.widget.CardView>
 
@@ -177,8 +169,9 @@
                 android:layout_height="wrap_content"
                 android:text="Стальной характер"
                 android:textAlignment="center"
+                android:layout_marginTop="2dp"
                 android:textColor="@color/black"
-                android:textSize="7dp"
+                android:textSize="10dp"
                 app:layout_constraintEnd_toEndOf="@+id/cardView15"
                 app:layout_constraintStart_toStartOf="@+id/cardView15"
                 app:layout_constraintTop_toBottomOf="@+id/cardView15" />
@@ -192,14 +185,12 @@
         android:id="@+id/button_open_list"
         android:layout_width="0dp"
         android:layout_height="75dp"
-        app:cornerRadius="15dp"
-        android:backgroundTint="#EFEFEF"
+        app:cornerRadius="8dp"
+        android:backgroundTint="@color/white"
         android:gravity="fill"
         android:text="Мои успехи"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black"
-        android:textSize="16dp"
-        android:textStyle="bold"
+        android:textSize="12sp"
         app:icon="@drawable/image1"
         app:iconPadding="30dp"
         app:iconSize="30dp"
@@ -226,14 +217,12 @@
         android:layout_width="0dp"
         android:layout_height="75dp"
         android:layout_marginHorizontal="35dp"
-        app:cornerRadius="15dp"
-        android:backgroundTint="#EFEFEF"
+        app:cornerRadius="8dp"
+        android:backgroundTint="@color/white"
         android:gravity="fill"
         android:text="Магазин сувениров"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black"
-        android:textSize="16dp"
-        android:textStyle="bold"
+        android:textSize="12sp"
         app:icon="@drawable/image2"
         app:iconPadding="30dp"
         app:iconSize="30dp"
@@ -259,15 +248,13 @@
         android:layout_width="0dp"
         android:layout_height="75dp"
         android:layout_marginHorizontal="35dp"
-        app:cornerRadius="15dp"
+        app:cornerRadius="8dp"
         android:layout_marginTop="30dp"
-        android:backgroundTint="#EFEFEF"
+        android:backgroundTint="@color/white"
         android:gravity="fill"
-        android:text="партнёры и акции"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:text="Партнёры и акции"
         android:textColor="@color/black"
-        android:textSize="16dp"
-        android:textStyle="bold"
+        android:textSize="12sp"
         app:icon="@drawable/image4"
         app:iconPadding="30dp"
         app:iconSize="30dp"
@@ -287,28 +274,25 @@
         app:layout_constraintTop_toTopOf="@+id/button_about_the_app" />
 
 
-
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button_open_game"
         android:layout_width="0dp"
         android:layout_height="75dp"
         android:layout_marginHorizontal="35dp"
-        app:cornerRadius="15dp"
-        android:backgroundTint="#EFEFEF"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/white"
         android:gravity="fill"
         android:text="Игры и розыгрыши"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/black"
-        android:textSize="16dp"
-        android:textStyle="bold"
+        android:textSize="12sp"
+        app:cornerRadius="8dp"
         app:icon="@drawable/image5"
         app:iconPadding="30dp"
         app:iconSize="30dp"
         app:iconTint="@color/black"
-        android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_about_the_app"/>
+        app:layout_constraintTop_toBottomOf="@+id/button_about_the_app" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -321,4 +305,28 @@
         app:layout_constraintTop_toTopOf="@+id/button_open_game" />
 
 
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:elevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            app:itemIconTint="@color/background_bottom_nav"
+            app:itemTextColor="@color/background_bottom_nav"
+            style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+            app:itemIconSize="30dp"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/menu_bottom_nav" />
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
